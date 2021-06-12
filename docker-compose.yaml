@@ -1,0 +1,9 @@
+services:
+  db:
+    image: library/postgres:13-alpine
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: local
+      POSTGRES_PASSWORD: local
+      POSTGRES_DB: test
