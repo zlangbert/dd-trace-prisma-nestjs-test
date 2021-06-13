@@ -26,6 +26,6 @@ $ yarn start:dev
 $ curl localhost:3000/working
 
 # when using a prisma service created as a nestjs module everything functionally works the same but somehow the span context is lost
-$ curl localhost:3000/working
+$ curl localhost:3000/broken
 
 ```
